@@ -1,0 +1,16 @@
+﻿<Application 
+    x:Class="UsingCVDWithoutMap.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"       
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    xmlns:BikeRoutes="clr-namespace:UsingCVDWithoutMap" 
+    xmlns:resources="clr-namespace:UsingCVDWithoutMap.Resources">
+
+    <Application.Resources>
+        <!-- Bootstrapper for the application -->
+        <BikeRoutes:AppBootstrapper x:Key="bootstrapper" />
+    
+        <!-- UI Resources -->
+        <resources:UiTextProvider x:Key="appResources"></resources:UiTextProvider>
+    </Application.Resources>
+
+</Application>
